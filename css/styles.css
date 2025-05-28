@@ -141,9 +141,17 @@ p, h1,h2,h3,h4,h5,h6 {
 }
 
 .about-us {
-    padding-top: 108px;
+    padding-top: 120px;
     padding-bottom: 120px;
+}
 
+.about-us-list {
+    display: flex;
+    gap: 24px;
+}
+
+.about-us-item {
+    width: calc((100% - 24px * 3) / 4);
 }
 
 .about-us-subtitle {
@@ -170,6 +178,11 @@ p, h1,h2,h3,h4,h5,h6 {
 
 .team-item {
     background-color: #fff;
+}
+
+.team-list {
+    display: flex;
+    gap: 24px;
 }
 
 .team-title {
@@ -208,6 +221,12 @@ p, h1,h2,h3,h4,h5,h6 {
     padding-bottom: 120px;
 }
 
+.portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 48px 24px;
+}
+
 .portfolio-title {
     font-weight: 700;
     font-size: 36px;
@@ -217,6 +236,18 @@ p, h1,h2,h3,h4,h5,h6 {
     color: #2e2f42;
     text-transform: capitalize;
     margin-bottom: 72px;
+}
+
+.portfolio-items {
+    padding-left: 16px;
+}
+
+.portfolio-item {
+    width: calc((100% - 24px * 2) / 3);
+}
+.portfolio-items .portfolio-subtitle {
+    margin-top: 32px;
+    margin-bottom: 8px;
 }
 
 .portfolio-subtitle {
