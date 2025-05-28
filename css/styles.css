@@ -39,10 +39,32 @@ p, h1,h2,h3,h4,h5,h6 {
     text-transform: uppercase;
     color: #4d5ae5;
     font-family: "Raleway", sans-serif;
+    margin-right: 76px;
 }
 
 .logo-studio {
     color: #2e2f42;
+}
+
+.header {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.header .container {
+    display: flex;
+    align-items: center;
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+}
+
+.header-menu-list {
+    display: flex;
+    gap: 40px;
+
 }
 
 .header-menu-link {
@@ -51,6 +73,15 @@ p, h1,h2,h3,h4,h5,h6 {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42; 
+}
+
+.header-addres {
+    margin-left: auto;
+}
+
+.header-addres-list {
+    display: flex;
+    gap: 40px;
 }
 
 .header-addres-link {
@@ -97,6 +128,10 @@ p, h1,h2,h3,h4,h5,h6 {
     cursor: pointer;
     display: block;
     margin: 0 auto;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
 }
 
 .business-solutions-btn:hover,
